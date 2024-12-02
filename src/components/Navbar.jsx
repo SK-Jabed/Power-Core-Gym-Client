@@ -71,7 +71,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center gap-1">
               {/* <img className="w-14 h-16" src={logo} alt="Coffee Store Logo" /> */}
-              <h2 className="text-4xl font-rancho font-medium text-white">
+              <h2 className="text-4xl font-rancho font-medium">
                 POWER CORE GYM
               </h2>
             </div>
