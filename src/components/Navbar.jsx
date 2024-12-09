@@ -30,7 +30,7 @@ const Navbar = () => {
           }
         //   to={"/addCoffee"}
         >
-          Add Coffee
+          Add Schedule
         </NavLink>
       </li>
       <li>
@@ -42,7 +42,7 @@ const Navbar = () => {
           }
         //   to={"/auth/signUp"}
         >
-          Sign Up
+          All Schedule
         </NavLink>
       </li>
     </>
