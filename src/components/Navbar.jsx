@@ -1,11 +1,10 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { HiMenuAlt1 } from "react-icons/hi";
-// import logo from "../assets/more/logo1.png";
-// import { authContext } from "../../provider/AuthProvider";
+
 
 const Navbar = () => {
-  //   const { user, logoutUser } = useContext(authContext);
+
 
   const navLinks = (
     <>
