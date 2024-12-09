@@ -28,7 +28,7 @@ const Navbar = () => {
               ? "text-lg font-bold text-cyan-400 underline"
               : "text-lg font-medium text-gray-800 hover:text-cyan-400"
           }
-        //   to={"/addCoffee"}
+          to={"/addSchedule"}
         >
           Add Schedule
         </NavLink>
@@ -40,7 +40,7 @@ const Navbar = () => {
               ? "text-lg font-bold text-cyan-400 underline"
               : "text-lg font-medium text-gray-800 hover:text-cyan-400"
           }
-        //   to={"/auth/signUp"}
+          to={"/allSchedule"}
         >
           All Schedule
         </NavLink>
