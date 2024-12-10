@@ -4,8 +4,6 @@ import { HiMenuAlt1 } from "react-icons/hi";
 
 
 const Navbar = () => {
-
-
   const navLinks = (
     <>
       <li>
