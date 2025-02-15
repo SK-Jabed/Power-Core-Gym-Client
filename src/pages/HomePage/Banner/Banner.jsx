@@ -2,7 +2,7 @@ import React from "react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
-import "./Banner.css"; // Custom styles if needed
+import "./Banner.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/react";
@@ -65,7 +65,7 @@ const Banner = () => {
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center px-6 md:px-12">
                 <div
                   className="max-w-lg bg-white bg-opacity-80 p-4 rounded-lg shadow-lg hidden md:block"
-                  data-aos="fade-right" // Another animation type
+                  data-aos="fade-right"
                 >
                   <h2 className="text-xl md:text-3xl font-bold text-gray-800 mb-2">
                     {slide.title}
