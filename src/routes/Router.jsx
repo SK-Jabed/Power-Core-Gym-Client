@@ -11,17 +11,17 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
+        element: <Home></Home>,
       },
       {
         path: "/addSchedule",
-        element: <AddSchedule></AddSchedule>
+        element: <AddSchedule></AddSchedule>,
       },
       {
         path: "/allSchedule",
-        element: <AllSchedule></AllSchedule>
-      }
-    ]
+        element: <AllSchedule></AllSchedule>,
+      },
+    ],
   },
 ]);
 
